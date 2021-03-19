@@ -21,3 +21,9 @@ INSERT INTO tb_offer(edition, start_Moment, end_Moment, course_id) VALUES ('2.0'
 INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES ('Trilha HTML', 'Trilha Principal do Curso', 1, 'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_960_720.jpg', 1, 1);
 INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES ('Fórum', 'Tira Dúvidas', 2, 'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_960_720.jpg', 2, 1);
 INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES ('Lives', 'Lives Exclusivas para a turma', 3, 'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_960_720.jpg', 0, 1);
+
+INSERT INTO tb_section(title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 1', 'Capitulo 1', 1, 'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_960_720.jpg', 1, null);
+INSERT INTO tb_section(title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 2', 'Capitulo 2', 2, 'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_960_720.jpg', 1, 1);
+INSERT INTO tb_section(title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capitulo 3', 'Capitulo 3', 3, 'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_960_720.jpg', 1, 2);
+
+
